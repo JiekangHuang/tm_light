@@ -62,10 +62,8 @@ SoftwareSerial SoftSerial(8, 9);     // RX:8 TX:9
 // MQTT Setting
 #define MQTT_BROKER "io.adafruit.com"
 #define MQTT_PORT 1883
-// #define MQTT_USERNAME "<YOUR USERNAME>"
-// #define MQTT_PASSWORD "<YOUR AIO KEY>"
-#define MQTT_USERNAME "Zack_Huang"
-#define MQTT_PASSWORD "aio_mEMG50QnoU27ESzwrRZprYLJSsSv"
+#define MQTT_USERNAME "<YOUR USERNAME>"
+#define MQTT_PASSWORD "<YOUR AIO KEY>"
 #define MQTT_TOPIC_CLASS_NAME MQTT_USERNAME "/feeds/class-name"
 
 #define LED_PIN 13
